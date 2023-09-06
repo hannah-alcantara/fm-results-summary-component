@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inconsolata:wght@200;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="card">
+      <div class="result">
+        <h1 class="result-title">Your Result</h1>
+        <div class="result-circle">
+          <p class="result-score"><span class="big-score">76</span>of 100</p>
+        </div>
+        <h2 class="result-overview">Great</h2>
+        <p class="result-overview-description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="summary">
+        <h1 class="summary__title">Summary</h1>
+        <div class="summary__component summary__component--1">
+          <img src="assets/images/icon-reaction.svg" alt="reaction icon" />
+          <h3 class="summary__breakdown summary__breakdown--1">Reaction</h3>
+          <span class="summary__score"
+            >80
+            <span class="summary__score--max">/ 100</span>
+          </span>
+        </div>
+
+        <div class="summary__component summary__component--2">
+          <img src="assets/images/icon-memory.svg" alt="memory icon" />
+          <h3 class="summary__breakdown summary__breakdown--2">Memory</h3>
+          <span class="summary__score"
+            >92
+            <span class="summary__score--max">/ 100</span>
+          </span>
+        </div>
+
+        <div class="summary__component summary__component--3">
+          <img src="assets/images/icon-verbal.svg" alt="verbal icon" />
+          <h3 class="summary__breakdown summary__breakdown--3">Verbal</h3>
+          <span class="summary__score"
+            >61
+            <span class="summary__score--max">/ 100</span>
+          </span>
+        </div>
+
+        <div class="summary__component summary__component--4">
+          <img src="assets/images/icon-visual.svg" alt="visual icon" />
+          <h3 class="summary__breakdown summary__breakdown--4">Visual</h3>
+          <span class="summary__score"
+            >72
+            <span class="summary__score--max">/ 100</span>
+          </span>
+        </div>
+
+        <button class="summary__button">Continue</button>
+      </div>
+    </div>
+    <!--
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>

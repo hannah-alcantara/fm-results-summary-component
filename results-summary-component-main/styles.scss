@@ -28,7 +28,7 @@ body {
   text-align: center;
   padding: 2rem;
 
-  // Does these have to be inside the summary?
+  // Does these have to be inside the result?
   &__title {
     font-size: 1.5rem;
     padding-bottom: 2.5rem;
@@ -145,7 +145,7 @@ body {
     margin-top: 1rem;
 
     &:hover{
-      background-color: hsl(241, 72%, 46%);
+      background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
       transition: all .2s;
       transform: translateY(2px);
     }

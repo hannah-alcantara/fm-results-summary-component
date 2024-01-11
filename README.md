@@ -18,8 +18,8 @@ Users should be able to:
 
 ### 🔗 Links
 
-- Solution URL: https://github.com/hannah-alcantara/fm-results-summary-component
-- Live Site URL: https://hannah-alcantara.github.io/fm-results-summary-component/
+- [Solution URL](https://github.com/hannah-alcantara/fm-results-summary-component)
+- [Live Site URL](https://hannah-alcantara.github.io/fm-results-summary-component/)
 
 ### 🛠️ Built with
 

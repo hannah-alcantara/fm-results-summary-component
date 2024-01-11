@@ -149,6 +149,9 @@ button {
     flex-direction: column;
     align-items: center;
   }
+  .attribution {
+    display: none;
+  }
 }
 /* FOOTER */
 .attribution {
@@ -161,5 +164,4 @@ button {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */

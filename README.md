@@ -27,7 +27,5 @@ Users should be able to:
 - SASS/SCSS
 - Flexbox
 
-## 👩‍💻 Author
-
-- Website - [Hannah Alcantara](#)
-- Frontend Mentor - [@hannah-alcantara](https://www.frontendmentor.io/profile/hannah-alcantara)
+## 👩‍💻 Author - Hannah Alcantara
+- [Frontend Mentor](https://www.frontendmentor.io/profile/hannah-alcantara)
